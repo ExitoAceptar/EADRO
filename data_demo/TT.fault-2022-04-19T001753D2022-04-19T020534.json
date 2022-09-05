@@ -1,0 +1,60 @@
+{
+  "start": 1650269873.164369,
+  "faults": [
+    {
+      "name": "dockercomposemanifests_ts-auth-service_1",
+      "fault": "cpu_load",
+      "start": 1650269875.883025,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-auth-service_1",
+      "fault": "network_delay",
+      "start": 1650270590.263875,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-auth-service_1",
+      "fault": "network_loss",
+      "start": 1650271314.547678,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-route-service_1",
+      "fault": "cpu_load",
+      "start": 1650272029.484325,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-route-service_1",
+      "fault": "network_delay",
+      "start": 1650272743.955296,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-route-service_1",
+      "fault": "network_loss",
+      "start": 1650273468.331719,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-ticketinfo-service_1",
+      "fault": "cpu_load",
+      "start": 1650274183.197065,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-ticketinfo-service_1",
+      "fault": "network_delay",
+      "start": 1650274897.499906,
+      "duration": 600
+    },
+    {
+      "name": "dockercomposemanifests_ts-ticketinfo-service_1",
+      "fault": "network_loss",
+      "start": 1650275621.789632,
+      "duration": 600
+    }
+  ],
+  "end": 1650276334.046788
+}
