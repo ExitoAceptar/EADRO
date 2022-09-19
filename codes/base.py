@@ -49,7 +49,7 @@ class BaseModel(nn.Module):
         
         pos = TP+FN
         eval_results = {
-                "F1": TP*2.0/(TP+FP+pos) if (TP+FP+pos)>0 else 0,df
+                "F1": TP*2.0/(TP+FP+pos) if (TP+FP+pos)>0 else 0,
                 "Rec": TP*1.0/pos if pos > 0 else 0,
                 "Pre": TP*1.0/(TP+FP) if (TP+FP) > 0 else 0}
         
